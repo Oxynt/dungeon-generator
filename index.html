@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+
+        <title>Random Dungeon Generators</title>
+
+        <!-- 3rd party -->
+        <script src="third-party/dat.gui.min.js"></script>
+        <script src="third-party/rot.min.js"></script> -->
+
+        <!-- Algorithm helpers -->
+        <script src="helpers.js"></script>
+
+        <!-- Algorithms -->
+        <script src="algos/RoomMaze.js"></script>
+        <script src="algos/Simple.js"></script>
+        <script src="algos/Digger.js"></script>
+        <script src="algos/Rogue.js"></script>
+        <script src="algos/Uniform.js"></script>
+
+        <!-- Main runner -->
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+        <!-- Main Content -->
+        <section>
+            <canvas id="view"></canvas>
+            <br/>
+            Generation Time: <span id="time"></span>ms
+        </section>
+    </body>
+</html>
